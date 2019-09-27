@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DeckGL, { IconLayer } from "deck.gl";
+import { StaticMap } from "react-map-gl";
+import destinationPoint from "./destinationPoint";
+import Airplane from "./airplane_icon";
+
 
 function App() {
   return (
